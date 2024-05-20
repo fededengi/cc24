@@ -1,0 +1,164 @@
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.floating-button {
+    position: absolute;
+    z-index: 999;
+    left: 50px;
+    top: 10px;
+}
+
+.wrapper.style2 {
+    /* This is an example of how to change colors in the template */
+    background-color: #2e7947;
+}
+
+.custom-banner {
+    /*Change the background image here*/
+    background-image: url('https://www.menatti.com/app/uploads/2019/12/val-belviso.jpg') !important;
+    background-size: cover !important;
+
+    /* Original background, for reference
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: #645862;
+    background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    */
+
+    width: 100%;
+    height: 950px;
+    margin-bottom: 10 px;
+}
+
+/*Popup Styles*/
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 280px;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+.ol-popup-closer:after {
+    content: "✖";
+}
+
+/*Add your new styles after this line*/
+.custom-control {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    bottom: 30px;
+    position: absolute;
+    right: 15px;
+    background: #0f5858;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.basic-data-grid{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.basic-data-element{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: right;
+    align-items: start;
+}
+
+.basic-data-text{
+    display: block;
+    text-align: left;
+}
+
+.basic-data-img{
+    width: 100%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+ul.buttons-page2 {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+figcaption{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+i{
+    font-style: italic;
+}
+
+.headbold {
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.index-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+.symb-method{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 10px;
+}
