@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="" />
+    <title>Precaccia</title>
+
+    <!--StyleSheets-->
+    <link rel="stylesheet" href="../assets/libraries/ol-v6.14.1-dist/ol.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+
+    <!-- Layer Switcher CSS -->
+    <link rel="stylesheet" href="../assets/libraries/dist/ol-ext.min.css" />
+    <link rel="stylesheet" href="../assets/css/custom-styles.css" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .embed-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        #header {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Ensure header is on top */
+        }
+        #nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        #nav li {
+            margin-right: 15px;
+        }
+        #nav li:last-child {
+            margin-right: 0; /* Remove margin from the last item */
+        }
+        #nav a {
+            text-decoration: none;
+            color: rgba(11, 71, 71, 0.9);
+            font-weight: bold;
+            padding: 5px 10px;
+            display: block;
+            text-transform: uppercase; /* Convert text to uppercase */
+        }
+        #nav a:hover {
+            color: #007BFF;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="embed-container">
+        <iframe title="CC24" src="https://polimi.maps.arcgis.com/apps/Embed/index.html?webmap=2851d92ee05a4c11ba51b482e3a2f013&extent=13.3285,41.3873,13.7333,41.5468&zoom=true&previewImage=false&scale=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=false&scrollWheelZoom=true&theme=light"></iframe>
+        <header id="header" class="alt">
+            <nav id="nav">
+              <ul>
+                <li class="current"><a href="../index.html">Home</a></li>
+                <li class="current"><a href="../pages/password.html">Enter</a></li>
+              </ul>
+            </nav>
+         </header>
+    </div>
+</body>
+</html>
