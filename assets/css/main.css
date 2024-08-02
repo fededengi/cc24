@@ -2173,8 +2173,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #138e8e;
-			border-color: #0f5858;
+			background: #434343;
 			color: #fff !important;
 		}
 
@@ -3017,7 +3016,7 @@ input, select, textarea {
 					}
 
 					#navButton .toggle:before {
-						color: #fff;
+						color: #000000;
 						content: '\f0c9';
 						font-size: 1em;
 						height: 40px;
@@ -3031,7 +3030,7 @@ input, select, textarea {
 					}
 
 					#navButton .toggle:after {
-						background: rgba(15, 88, 88, 0.75);
+						background: rgba(255, 255, 255, 0.75);
 						border-radius: 2px;
 						content: '';
 						height: 40px;
@@ -3062,7 +3061,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #0f5858;
+				background: #434343;
 				color: #fff;
 				font-size: 0.8em;
 				letter-spacing: 0.075em;
