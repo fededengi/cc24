@@ -20,6 +20,7 @@
     /*background-image: url(../images/copertina_1.jpg) no-repeat center center fixed !important;*/
     background-size: contain !important;
     background-position: center center !important;
+    background-repeat: no-repeat;
     /* Original background, for reference
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #645862;
