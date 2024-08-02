@@ -18,7 +18,7 @@
 .custom-banner {
     /*Change the background image here*/
     /*background-image: url(../images/copertina_1.jpg) no-repeat center center fixed !important;*/
-    background-size: contain !important;
+    background-size: cover !important;
     background-position: center center !important;
     /* Original background, for reference
     background-attachment: scroll, scroll, scroll, fixed;
