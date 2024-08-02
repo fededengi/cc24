@@ -17,7 +17,7 @@
 
 .custom-banner {
     /*Change the background image here*/
-    background-image: url('https://www.menatti.com/app/uploads/2019/12/val-belviso.jpg') !important;
+    /*background-image: url(../images/copertina_1.jpg) no-repeat center center fixed !important;*/
     background-size: cover !important;
 
     /* Original background, for reference
